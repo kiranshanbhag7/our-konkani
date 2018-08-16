@@ -1,0 +1,61 @@
+*.iml
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+
+# ignore all build files excepts mappings
+/*/build/generated
+/*/build/intermediates
+/*/build/tmp
+/*/build/outputs/apk
+/*/build/outputs/log
+/captures
+
+# built application files
+*.apk
+*.ap_
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated files
+bin/
+gen/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Project files
+google_play_services/project.properties
+/*.txt
+
+# Android Studio
+*.iml
+.idea
+.gradle
+build/
+.navigation
+
+# Local IDEA workspace
+.idea/workspace.xml
+
+# Supporting older studio builds
+/*/out
+/*/*/build
+/*/*/production
+*.iws
+*.ipr
+*~
+*.swp
+*.org
+# OSX files
+.DS_Store
+
+# Windows thumbnail db
+Thumbs.db

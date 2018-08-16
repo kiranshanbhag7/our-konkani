@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cv_category"
+    android:layout_width="match_parent"
+    android:minHeight="@dimen/two_tier_setting_item_height"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/margin_mini"
+    card_view:cardElevation="7dp"
+    card_view:contentPadding="7dp"
+    card_view:cardCornerRadius="7dp"
+    card_view:cardMaxElevation="7dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:src="@drawable/outline_info_black_48"/>
+
+        <TextView
+            android:id="@+id/tv_category_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/text_16"
+            android:textStyle="bold"
+            android:paddingTop="@dimen/margin_mini"
+            android:paddingBottom="@dimen/margin_mini"
+            android:paddingLeft="@dimen/line_spacing"
+            android:paddingRight="@dimen/line_spacing"
+            android:paddingStart="@dimen/line_spacing"
+            android:paddingEnd="@dimen/line_spacing"
+            android:layout_gravity="center"
+            android:gravity="center"
+            />
+    </LinearLayout>
+</android.support.v7.widget.CardView>

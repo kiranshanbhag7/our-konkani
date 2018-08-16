@@ -1,0 +1,8 @@
+# ignore all build files excepts mappings
+/build/generated
+/build/intermediates
+/app/gradlew.bat
+/build/tmp
+/build/outputs/apk
+/build/outputs/log
+
